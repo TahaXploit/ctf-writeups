@@ -92,9 +92,9 @@ Observation: the LSBs of RGB channels contain hidden data.
 
 ---
 ## Step 2: Extract LSB bytes
-```python3
 We can extract LSBs from each RGB pixel and pack them into bytes using Python.
 The script solution.py accomplishes this.
+```python3
 # bruteforce_xor.py
 from PIL import Image
 import itertools
